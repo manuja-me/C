@@ -47,14 +47,14 @@ int main(void) {
       printf("%.2f C = %.2f F\n", input, km_to_m(input));
       break;
     case 5:
-      printf("Enter minutes: ");
+      printf("Enter Seconds: ");
       scanf("%lf", &input);
-      printf("%.2f C = %.2f F\n", input, min_to_s(input));
+      printf("%.2f s = %.2f min\n", input, s_to_min(input));
       break;
     case 6:
-      printf("Enter seconds: ");
+      printf("Enter Minutes: ");
       scanf("%lf", &input);
-      printf("%.2f C = %.2f F\n", input, s_to_min(input));
+      printf("%.2f min = %.2f s\n", input, min_to_s(input));
       break;
     case 0:
       printf("Exiting program. \n");
